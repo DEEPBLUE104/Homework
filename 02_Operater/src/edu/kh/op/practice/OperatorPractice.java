@@ -50,6 +50,9 @@ public class OperatorPractice {
 	System.out.print("학년: " );
 	int input2 = sc.nextInt();
 	
+	System.out.print("반: " );
+	int input6 = sc.nextInt();
+	
 	System.out.print("번호: " );
 	int input3 = sc.nextInt();
 	
@@ -61,7 +64,7 @@ public class OperatorPractice {
 	System.out.print("성적: ");
 	double input5 = sc.nextDouble();
 	
-	System.out.println();
+	System.out.println(input2 + "학년"+ input6 + "반"+ input3 +"번" + input1 + input4 + "의 성적은" + input5 + "이다.");
 	
 	}
 
