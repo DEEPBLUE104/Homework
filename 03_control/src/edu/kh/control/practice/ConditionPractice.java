@@ -220,8 +220,8 @@ BMI 지수 : 21.45087235996327
 			
 			System.out.printf("중간 고사 점수(20) : %.1\n", midTerm);
 			System.out.printf("기말 고사 점수(30) : %.1\n", finalTerm);
-			System.out.printf("과제 점수(30) : %.1\n", report);
-			System.out.printf("출석 점수(20) : %.1\n", attendance);
+			System.out.printf("과제 점수(30) : %.1f\n", report);
+			System.out.printf("출석 점수(20) : %.1f\n", attendance);
 			
 			double sum = midTerm + finalTerm + report + attendance;
 			
